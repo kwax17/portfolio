@@ -9,7 +9,7 @@ window.onscroll = function (event) {
         body.style.backgroundColor = 'white';
     } else if (scroll >= 300 && scroll < 600) {
         // yellow
-        body.style.backgroundColor = 'black';
+        body.style.backgroundColor = '#4C6663';
     } else if (scroll >= 600 && scroll < 1200) {
         // blue
         body.style.backgroundColor = 'white';

@@ -46,6 +46,12 @@ header h1 {
     font-family: Caveat;
     font-size: 45px;
     margin-top: 15px;
+    color: white;
+}
+
+header h1:hover {
+    text-decoration: none;
+    color: var(--trid-color);
 }
 
 header nav ul li {
@@ -82,17 +88,17 @@ header nav ul li a:hover {
     text-align: center;
     padding: 0px 200px 20px 200px;
     font-family: Lora;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 
 .corkboard {
     background-image: url('../images/background-brown-cork-board-texture-close-up_77190-2560.jpg');
     height: auto;
-    border: 5px var(--primary-color) solid;
+    border: 5px var(--trid-color) solid;
     flex-wrap: wrap;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 .projects {
