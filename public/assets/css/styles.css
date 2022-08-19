@@ -50,8 +50,11 @@ header h1 {
 }
 
 header h1:hover {
-    text-decoration: none;
     color: var(--trid-color);
+}
+
+a:link{
+    text-decoration: none!important;
 }
 
 header nav ul li {
@@ -90,6 +93,31 @@ header nav ul li a:hover {
     font-family: Lora;
     margin-top: 150px;
     margin-bottom: 100px;
+}
+
+.contact {
+    font-size: 38px;
+    text-align: center;
+    /* padding: 0px 200px 20px 200px; */
+    font-family: Lora;
+    margin: 150px 300px 100px 300px;
+    border: 3px var(--primary-color) solid;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: var(--trid-color);
+}
+
+.contact ul li {
+    list-style: none;
+}
+
+.contact ul li a {
+    color: var(--primary-color);
+}
+.contact ul li a:hover {
+    list-style: none;
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .corkboard {
